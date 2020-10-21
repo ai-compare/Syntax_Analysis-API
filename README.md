@@ -18,7 +18,7 @@ headers = {  'Authorization': 'Bearer your API Key'}
 url = 'https://www.ai-compare.com/v1/pretrained/text/syntax_analysis'
 ```
 ### Select parameters 
-Set your text, the language, the attempted result, and providers APIs you want to run :
+Set your text, the language, and providers APIs you want to run :
 ```python
 payload = {'providers': '[\'ibm\', \'aws\', \'google_cloud\']','text':'I am angry today','language': 'en-US'}
 ```
