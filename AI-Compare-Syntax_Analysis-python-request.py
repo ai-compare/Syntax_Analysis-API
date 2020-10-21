@@ -8,7 +8,7 @@ headers = {'Authorization': 'Bearer your API Key'} #You can get your free API to
 # Select API
 url = 'https://www.ai-compare.com/v1/pretrained/text/syntax_analysis'
 
-# Select providers, and text to analyze
+# Select providers, and language
 payload = {'providers': '[\'google_cloud\', \'aws\', \'ibm\']','text':'I am angry today','language': 'en-US'}
 
 # Request to AI COMPARE
